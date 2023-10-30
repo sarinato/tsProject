@@ -10,6 +10,13 @@ app.use('/register', (req, res) => {
   });
 });
 
+app.use('/exit', (req, res) => {
+  res.send({
+    token: 'test12345'
+  });
+});
+
+
 
 app.use('/login', (req, res) => {
   res.send({
