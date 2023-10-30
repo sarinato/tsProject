@@ -1,7 +1,7 @@
 const express = require('express');
 const cors = require('cors')
 const app = express();
-
+const fo = 'fofo'
 app.use(cors());
 
 app.use('/register', (req, res) => {
