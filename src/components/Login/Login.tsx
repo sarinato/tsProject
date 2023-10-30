@@ -54,7 +54,7 @@ const Login : React.FC<receivedProps> = ({setToken}) => {
 
                 <div>
                     <button type='submit'>
-                        Submitt
+                        Submit
                     </button>
                 </div>        
             </form>
