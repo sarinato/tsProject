@@ -4,6 +4,13 @@ const app = express();
 
 app.use(cors());
 
+app.use('/register', (req, res) => {
+  res.send({
+    token: 'test12345'
+  });
+});
+
+
 app.use('/login', (req, res) => {
   res.send({
     token: 'test12345'
