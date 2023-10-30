@@ -4,7 +4,7 @@ const app = express();
 const fo = 'fofo'
 const foo = 'fofofo'
 app.use(cors());
-
+const fooo = 'fofo1'
 app.use('/register', (req, res) => {
   res.send({
     token: 'test12345'
